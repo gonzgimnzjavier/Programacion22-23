@@ -1,0 +1,20 @@
+package resueltosOctubre;
+
+public class resuelto1 {
+	public static double celsiusToFarenheit(double temp)
+	{
+	return (1.8)*temp + 32;
+	}
+	public static double farenheitToCelsius(double temp)
+	{
+	return (temp - 32)/1.8;
+	}
+	public static void main(String[] args) {
+		
+		System.out.println("Selecciona una opción:");
+		System.out.println("1 para cambiar de celsius a farenheit:");
+		System.out.println("2 para cambiar de farenheit a celsius:");
+		System.out.println("3 para salir");
+		
+	}
+}

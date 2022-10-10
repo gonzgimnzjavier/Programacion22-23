@@ -1,0 +1,10 @@
+package resueltosOctubre;
+
+public class TestPajaro {
+	
+	public static void main(String[] args) {
+		
+		TestPajaro Pollo= new Pajaro;
+	}
+
+}

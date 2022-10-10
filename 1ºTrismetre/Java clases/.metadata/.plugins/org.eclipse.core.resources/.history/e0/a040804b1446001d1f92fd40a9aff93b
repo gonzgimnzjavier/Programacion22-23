@@ -1,0 +1,30 @@
+package resueltosOctubre;
+
+import java.util.Scanner;
+
+public class Rebajas {
+
+	public static double descubrePorcentaje(double original, double actual) {
+	return(original-actual)*100/original;
+	}
+	
+	//constuir un metodo al que le pasemos el precio actual y el porcentaje y nos devuelva el precio original
+	
+	public static double descubreOriginal(double actual, double porcentaje) {
+		return (100*actual)/porcentaje;
+		
+		
+	}
+	
+	public static void main(String[] args) {
+	double antiguo;
+	double rebajado;
+	Scanner sc= new Scanner(System.in);
+	System.out.println("Introduce precio original:");
+	antiguo=sc.nextDouble();
+	System.out.println("Introduce precio rebajado");
+	rebajado=sc.nextDouble();
+	System.out.println("El porcentaje rebajado es del "+descubrePorcentaje(antiguo,rebajado)+"%");
+	
+	}
+}

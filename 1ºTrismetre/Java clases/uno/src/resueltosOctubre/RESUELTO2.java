@@ -1,0 +1,23 @@
+package resueltosOctubre;
+
+public class RESUELTO2 {
+	
+	
+			private int velocidad;
+			RESUELTO2(){
+				velocidad=0;
+			}
+			public int getVelocidad() {return this.velocidad;}
+			public void acelera(int mas) {this.velocidad+=mas;}
+			public void frena(int menos){this.velocidad-=menos;}
+			
+			
+			@Override
+			public String toString() {
+				return "RESUELTO2 [velocidad=" + velocidad + "]";
+			}
+			
+			
+	}
+
+

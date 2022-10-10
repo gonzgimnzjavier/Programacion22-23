@@ -1,0 +1,12 @@
+package resueltosOctubre;
+
+public class TestRESUELTO2 {
+	
+	public static void main(String[] args) {
+		
+		RESUELTO2 Coche = 0;
+		
+		System.out.println(Coche.getVelocidad());
+	}
+
+}

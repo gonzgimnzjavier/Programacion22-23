@@ -1,0 +1,10 @@
+package resueltosOctubre;
+
+public class TestSatelite {
+public static void main(String[] args) {
+	Satelite Enorme= new Satelite();
+	
+	Enorme.setPosicion(2.9, 0.7, 3.2);
+	System.out.println(Enorme.toString());
+}
+}

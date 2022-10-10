@@ -1,0 +1,61 @@
+package resueltosOctubre;
+
+import java.util.Scanner;
+
+public class resuelto1 {
+	public static double celsiusToFarenheit(double temp)
+	{
+	return (1.8)*temp + 32;
+	}
+	public static double farenheitToCelsius(double temp)
+	{
+	return (temp - 32)/1.8;
+	}
+	public static void main(String[] args) {
+		
+		//variables
+		Scanner sc= new Scanner(System.in);
+		
+		int opcion=0;
+		
+		double aux;
+		
+		//entradas
+		
+		while(true) {
+		System.out.println("Selecciona una opción:\n");
+		System.out.println("1 para cambiar de celsius a farenheit:");
+		System.out.println("2 para cambiar de farenheit a celsius:");
+		System.out.println("3 para salir:");
+		
+		opcion =sc.nextInt();
+		
+		
+			switch(opcion){//abre switch
+
+			case 1: 
+				System.out.println("opcion 1:");
+				System.out.println("Introduce temperatura:");
+				aux=sc.nextDouble();
+				System.out.println(celsiusToFarenheit(aux));	
+				
+				break;
+			case 2: 
+				System.out.println("opcion 2:");
+				System.out.println("Introduce temperatura:");
+				aux=sc.nextDouble();
+				System.out.println(farenheitToCelsius(aux));
+				break; 
+			case 3:
+				System.out.println("salir");
+				break;
+			
+			default:
+				System.out.println("opcion no valida");
+			}//fin switch
+		
+		
+		
+	}//fin while
+	}
+}

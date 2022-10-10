@@ -1,0 +1,25 @@
+package POO;
+
+public class testPajaro {
+public static void main(String[] args) {
+	
+	int años;
+	
+	Pajaro piolin;
+	
+	piolin= new Pajaro();
+	
+	piolin.setEdad(5);
+	
+	
+	
+	piolin.setEdad(8);
+	
+	años=piolin.getEdad();
+	
+	System.out.println("el pajaro tiene años: "+años);
+	
+	piolin.setColor('a');
+	piolin.imprimeColor();
+	}
+}

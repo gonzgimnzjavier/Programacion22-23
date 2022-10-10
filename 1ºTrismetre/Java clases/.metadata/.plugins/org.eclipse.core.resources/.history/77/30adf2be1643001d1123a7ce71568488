@@ -1,0 +1,13 @@
+package POO;
+
+public class testPajarov2 {
+	
+	public static void main(String[] args) {
+		Pajarov2 pl,p2;
+		pl=new Pajarov2() ;
+		p2=new Pajarov2 ('a', 3) ;
+		pl.muestrapajaros ();
+		p2.muestrapajaros();
+		}
+
+}
