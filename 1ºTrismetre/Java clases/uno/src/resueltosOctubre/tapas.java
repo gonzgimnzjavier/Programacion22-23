@@ -10,20 +10,21 @@ el restaurante teniendo en cuenta que por cada tres personas, Israel utiliza un 
 public class tapas {
 	
 	public static int numeroClientes(double p, double c) {
-		double numpersonaspapas;
+		double numpersonaspatatas;
         double numpersonaschocos;
-        double res;
+        double numeroclientes;
        
-        numpersonaspapas=p*3;
+        numpersonaspatatas=p*3;
         numpersonaschocos=c*6;
+        
        
-        if (numpersonaspapas<=numpersonaschocos) {
-            res=numpersonaspapas;
+        if (numpersonaspatatas<=numpersonaschocos) {
+        	numeroclientes=numpersonaspatatas;
         } else {
-            res=numpersonaschocos;
+        	numeroclientes=numpersonaschocos;
         }
        
-        return (int) (res);
+        return (int) (numeroclientes);
     }
 	
 	
