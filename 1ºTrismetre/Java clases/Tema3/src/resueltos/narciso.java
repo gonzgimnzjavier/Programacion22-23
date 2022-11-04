@@ -31,6 +31,13 @@ public class narciso {
 		return total;
 	}
 	
+	public static boolean esArmstrong(int n) {
+		if(n==calculaPotencias(n))
+			return true;
+		else
+			return false;
+	}
+	
 	public static void main(String[] args) {
 		
 		int n=0;
@@ -40,6 +47,8 @@ public class narciso {
 		//System.out.println("cifras: "+contarCifras(n));
 		
 		System.out.println("Potencias "+calculaPotencias(n));
+		
+		System.out.println(n+" es armstrong?");
 		
 	}
 }
